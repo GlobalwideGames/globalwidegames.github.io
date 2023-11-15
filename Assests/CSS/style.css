@@ -1,0 +1,286 @@
+/* All Files */
+
+a:hover {
+    cursor: pointer;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  * {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+    scrollbar-width: none;
+  }
+  h1 {
+    font-family: Calibri, "Trebuchet MS", sans-serif;
+  }
+  .Normal-Button {
+      margin: 5px 10px;
+      background-color: var(--btn-accent);
+      border: 0;
+      color: var(--text-color1);
+      padding: 0.8em;
+      border-radius: var(--btn-rounding);
+      box-shadow: 0 0 10px 5px var(--btn-box-shadow);
+      transition: 0.75s;
+    }
+    .Normal-Button:hover {
+      cursor: pointer;
+      transition: 0.75s;
+      scale: 1.1;
+    }
+    .Normal-Button img {
+      width: 24px;
+      align-items: center;
+      display: flex;
+    }
+  
+  /* Navigation Bar */
+  
+  .Navigation {
+    width: 100%;
+    height: 60px;
+    background: var(--bg-accent2);
+    display: flex;
+    border-radius: 0 0 25px 25px;
+  }
+  .Navigation-Image img {
+    margin-top: 5px;
+    height: 36px;
+    padding: 0.5em;
+    padding-left: 1.25em;
+  }
+  .Navigation-Image:hover {
+    animation: shake 5s;
+  }
+  .Navigation-Container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+  }
+  .Navigation-Container ul {
+    gap: 15px;
+    display: flex;
+    position: absolute;
+    transform: translate(15%);
+  }
+  .Navigation-Button a {
+    display: flex;
+    padding: 0.75em;
+    align-items: center;
+    gap: 5px;
+    color: var(--text-color1);
+    background-color: var(--btn-accent);
+    border-radius: var(--btn-rounding);
+    border: 1px solid var(--btn-accent);
+  }
+  .Navigation-Button a:hover {
+    border: 1px solid var(--nav-box-hover);
+    transition: 0.75s;
+  }
+  
+  /* Index Page */
+  
+  .Index-Container {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    color: var(--text-color1);
+  }
+  .Index-Container div h1 {
+    font-size: 5em;
+    text-shadow: 0 10px 5px var(--text-shadow);
+  }
+  .Index-SplashText {
+    margin-bottom: 30px;
+    text-shadow: 0 5px 5px var(--text-shadow);
+  }
+  .Index-SplashText:hover {
+    cursor: pointer;
+  }
+  .Index-BottomBar {
+    padding: 0.75em;
+    font-size: 0.5rem;
+    width: 99%;
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    justify-content: center;
+    gap: 10px;
+  }
+  .Index-BottomBar-Text {
+    color: var(--text-color1);
+    text-decoration: underline;
+  }
+  
+  /* Projects/Apps/Others Page */
+  
+  .Projects-Frame {
+    z-index: 9999;
+    display: block;
+    height: 100vh;
+    width: 100%;
+  }
+  .Projects-IFrame {
+    height: 100%;
+    width: 100%;
+    border: none;
+  }
+  .Projects-FrameBar {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+    text-align: center;
+    color: var(--text-color1);
+    padding: 0.75em;
+    background: var(--btn-accent2);
+    border-radius: var(--btn-rounding);
+    width: fit-content;
+    right: 0;
+    height: fit-content;
+    position: absolute;
+    margin: 15px 15px 0 0;
+    font-size: 20px;
+    box-shadow: 0 0 10px var(--btn-box-shadow);
+  }
+  .Projects-FrameBar:hover {
+    cursor: pointer;
+  }
+  .Projects-Container {
+    padding: 2.5em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 35px;
+    justify-content: center;
+  }
+  .Projects-Project {
+    animation: zoom-in-fade 1s cubic-bezier(0.34, 1.56, 0.64, 1);
+    border-radius: var(--btn-rounding);
+    padding: 0.75em;
+    height: fit-content;
+    width: 12.5em;
+    background-color: var(--btn-accent);
+    color: var(--text-color1);
+    transition: 0.75s;
+    box-shadow: 0 0 10px 5px var(--btn-box-shadow);
+  }
+  .Projects-Project:hover {
+    scale: 1.1;
+    transition: 0.75s;
+    cursor: pointer;
+  }
+  .Projects-Container img {
+    border-radius: var(--btn-rounding);
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+  }
+  .Projects-Container h1 {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    font-size: large;
+    color: var(--text-color1);
+  }
+  
+  /* Settings Page */
+  
+  .Settings-Header {
+    margin-top: 25px;
+    color: var(--text-color1);
+    animation: zoom-in-fade 1s cubic-bezier(0.34, 1.56, 0.64, 1);
+  }
+  .Settings-Container {
+    padding: 0.5em;
+    height: fit-content;
+    animation: zoom-in-fade 1s cubic-bezier(0.34, 1.56, 0.64, 1);
+  }
+  .Settings-TextInput {
+    background-color: var(--btn-accent);
+    box-shadow: 0 0 10px 5px var(--btn-box-shadow);
+    border-radius: var(--btn-rounding);
+    padding: 0.8em;
+    color: var(--text-color1);
+    border: none;
+    margin: 5px 10px;
+  }
+  
+  /* Animations */
+  
+  @keyframes shake {
+    0% {
+      transform: translate(1px, 1px) rotate(0deg);
+    }
+    10% {
+      transform: translate(-1px, -2px) rotate(-1deg);
+    }
+    20% {
+      transform: translate(-3px, 0px) rotate(1deg);
+    }
+    30% {
+      transform: translate(3px, 2px) rotate(0deg);
+    }
+    40% {
+      transform: translate(1px, -1px) rotate(1deg);
+    }
+    50% {
+      transform: translate(-1px, 2px) rotate(-1deg);
+    }
+    60% {
+      transform: translate(-3px, 1px) rotate(0deg);
+    }
+    70% {
+      transform: translate(3px, 1px) rotate(-1deg);
+    }
+    80% {
+      transform: translate(-1px, -1px) rotate(1deg);
+    }
+    90% {
+      transform: translate(1px, 2px) rotate(0deg);
+    }
+    100% {
+      transform: translate(1px, -2px) rotate(-1deg);
+    }
+  }
+  @keyframes move-down {
+    0% {
+      margin-top: -2rem;
+      opacity: 0;
+    }
+    70% {
+      margin-top: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes zoom-in-fade {
+    0% {
+      scale: 0;
+      opacity: 0;
+    }
+    100% {
+      scale: 1;
+      opacity: 1;
+    }
+  }
+  
+  /* Important */
+  
+  .hidden {
+    display: none !important;
+  }
