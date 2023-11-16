@@ -34,7 +34,7 @@ function WidgetBot() {
   create(protocolThingy + "/Assests/Others/WidgetBot.html");
 }
 
-function AboutBlank() {
+function RailinAboutBlank() {
   window.location.replace("https://google.com");
   create(protocolThingy);
 }
