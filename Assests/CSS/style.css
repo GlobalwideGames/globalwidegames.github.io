@@ -218,6 +218,15 @@ a:hover {
     border: none;
     margin: 5px 10px;
   }
+  .search-input {
+    background-color: var(--btn-accent);
+    box-shadow: 0 0 10px 5px var(--btn-box-shadow);
+    border-radius: var(--btn-rounding);
+    padding: 0.8em;
+    color: var(--text-color1);
+    border: none;
+    margin: 5px 10px;
+  }
   
   /* Animations */
   
