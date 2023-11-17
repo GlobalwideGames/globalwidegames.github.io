@@ -1,10 +1,10 @@
 self.__uv$config = {
     prefix: '/uv/service/',
-    bare: 'proxylink+bareserver',
+    bare: 'https://savethetrees.sen.org.nz/bare/',
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
-    handler: '/uv/uv.handler.js',
-    bundle: '/uv/uv.bundle.js',
-    config: '/uv/uv.config.js',
-    sw: '/uv/uv.sw.js',
+    handler: './Assests/uv/uv.handler.js',
+    bundle: './Assests/uv/uv.bundle.js',
+    config: './Assests/uv/uv.config.js',
+    sw: './Assests/uv/uv.sw.js',
 };
