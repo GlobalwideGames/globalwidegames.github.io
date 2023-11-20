@@ -5,7 +5,7 @@ var says = [
   "Fortnite!",
   "your mom",
   "Bot",
-  "RAILIN 2.0!",
+  "Ballsack",
   "stop asking where disc0rd is. its in widgetbot",
   "blogs was usless",
   "so was secrets",
