@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global</title>
+    <link rel="icon" type="image/png" href="./Assests/Imgs/Logo.png">
+    <link rel="stylesheet" type="text/css" href="./Assests/CSS/main.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css">
+</head>
+<body class="default">
+
+    <nav class="Navigation hideAfterFullscreen">
+        <div class="Navigation-Container">
+            <a class="Navigation-Image" href="./"><img src="./Assests/Imgs/Logo.png"></img></a>
+            <ul>
+                <li class="Navigation-Button"><a href="./"><i class="las la-home"></i><p>Home</p></a></li>
+                <li class="Navigation-Button"><a href="./g.html"><i class="las la-gamepad"></i><p>Projects</p></a></li>
+                <li class="Navigation-Button"><a href="./e.html"><i class="las la-play-circle"></i><p>Emulator</p></a></li>
+                <!--<li class="Navigation-Button"><a href="./search.html"><i class="las la-search"></i><p>Unblock</p></a></li>-->
+                <li class="Navigation-Button"><a href="./settings.html"><i class="las la-cog"></i><p>Settings</p></a></li>
+            <ul>
+        </div>
+    </nav>
+    
+    <div class="Projects-Frame hidden">
+        <div class="Projects-FrameBar">
+            <i id="close" class="las la-times-circle"></i>
+            <i id="fullscreen" class="las la-expand"></i>
+            <i id="link" class="las la-link"></i>
+        </div>
+        <iframe class="Projects-IFrame" src=""></iframe>
+    </div>
+
+    <div class="hideAfterFullscreen">
+        <center>
+            <h1 style="margin-top: 25px; color: var(--text-color1)">Projects</h1>
+            <p style="margin-bottom: 25px;"><a style="color: var(--text-color1); text-decoration: underline;" href="https://docs.google.com/forms/d/e/1FAIpQLSdxE59ZmQ1XB9KiCue66vxhiiiJqe03wZMRAJG2TzGSOvTP7A/viewform">Request Project</a></p>
+        </center>
+        <hr>
+        <center style="padding: 2em 0 0 0">
+
+            <input type="text" class="Settings-TextInput" id="GameSearchBar" placeholder="Search For Proxies">
+        </center>
+    </div>
+
+    <div class="Projects-Container hideAfterFullscreen">
+        <div class="Projects-Project">
+            <a onclick="WidgetBot()">
+                <img src="./Assests/Imgs/WidgetBot.png" loading="lazy" onerror="this.src='./Assests/Imgs/NoIcon.png'"/>
+                <h1>DISC0RD</h1>
+            </a>
+        </div>
+    </div>
+
+    <script src="./Assests/JS/aboutblank.js"></script>
+    <script src="./Assests/JS/options.js"></script>
+    <script src="./Assests/JS/g.js"></script>
+</body>
+</html>
