@@ -1,6 +1,6 @@
 self.__uv$config = {
     prefix: '/a/',
-    bare: 'https://refactored-space-broccoli-jpgv9544vxg2rg6-8080.app.github.dev/v/',
+    bare: 'https://savethetrees.sen.org.nz/bare/',
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
     handler: './m/handler.js',
