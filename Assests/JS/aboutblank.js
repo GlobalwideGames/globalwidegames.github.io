@@ -19,6 +19,17 @@ function about_blank(){
     window.location.replace("https://google.com");
 }
 
+function setAboutBlank() {
+    const $aboutBlankSelect = document.getElementById('aboutBlankSelect');
+    const aboutBlankSelect = $aboutBlankSelect.value;
+    if (aboutBlankSelect === 'on') {
+        localStorage.setItem('aboutBlank', 'on');
+        about_blank();
+    } else if (aboutBlankSelect === 'off') {
+        localStorage.setItem('aboutBlank', 'off');
+    }
+}
+
 function createCustom() {
   let UrlTingy = document.getElementById("textInputThingy").value;
 
