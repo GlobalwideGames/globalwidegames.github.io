@@ -16,6 +16,7 @@ function about_blank(){
     iframe.style.margin = '0';
     iframe.src = `${window.location.origin}`;
     newWindow.document.body.appendChild(iframe);
+    window.location.replace("https://google.com");
 }
 
 function createCustom() {
