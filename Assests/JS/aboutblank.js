@@ -24,10 +24,8 @@ function setAboutBlank() {
     const $aboutBlankSelect = document.getElementById('aboutBlankSelect');
     const aboutBlankSelect = $aboutBlankSelect.value;
     if (aboutBlankSelect === 'on') {
-        localStorage.setItem('aboutBlank', 'on');
         about_blank();
     } else if (aboutBlankSelect === 'off') {
-        localStorage.setItem('aboutBlank', 'off');
     }
 }
 
