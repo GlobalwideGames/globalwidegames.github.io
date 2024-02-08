@@ -20,7 +20,7 @@ body.amoled{
     --nav-box-hover: var(--bg-accent1);
 }
 
-body.reg{
+body{
     background: var(--bg-accent1);
 
     --btn-rounding: 15px;
