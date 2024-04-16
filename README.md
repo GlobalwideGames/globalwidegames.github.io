@@ -14,3 +14,6 @@
 - Fast Compatibilty
 - Large Library of Games (soon if im not lazy)
 - Proxies (soon if yall stop getting them blocked)
+
+# Blog
+v1.0.0 - basic site uploaded updates and more games will be coming
