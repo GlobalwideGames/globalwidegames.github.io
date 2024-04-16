@@ -15,5 +15,11 @@
 - Large Library of Games (soon if im not lazy)
 - Proxies (soon if yall stop getting them blocked)
 
+# Info
+- Made by me posh
+- uses mainly html, css, and js
+- I hope to implement a proxy into the site soon
+- I add games daily just email me and games or updates you want I love feedback!
+
 # Blog
 v1.0.0 - basic site uploaded updates and more games will be coming
