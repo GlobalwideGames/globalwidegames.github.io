@@ -22,5 +22,5 @@
 - I add games daily just email me and games or updates you want I love feedback!
 
 # Blog
-v1.0.0 - basic site uploaded updates and more games will be coming
-v1.1.0 - Added 7 games and fixed some bugs
+- v1.0.0 - basic site uploaded updates and more games will be coming
+- v1.1.0 - Added 7 games and fixed some bugs
