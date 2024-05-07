@@ -9,6 +9,7 @@ var says = [
   "stop asking where disc0rd is. its in widgetbot",
   "blogs was usless",
   "so was secrets",
+  "what the sigma 🤓",
   "Tempus fugit ⏰",
   "yes its open-source",
   "no you shouldnt skid it",
