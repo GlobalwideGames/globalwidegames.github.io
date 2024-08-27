@@ -69,7 +69,7 @@
 
     <script src="./Assests/JS/options.js"></script>
     <script src="./Assests/JS/aboutblank.js"></script>
-    <script src="particles.js"></script>
+    <script src="./Assests/JS/particles.js"></script>
     <script>
         function setIcon(img, name) { localStorage.removeItem('cloak'); var icon = JSON.parse(localStorage.getItem("cloak")) || []; icon.push({ img: img, name: name }); localStorage.setItem("cloak", JSON.stringify(icon)); window.location.reload(); }
         document.getElementById('themes').addEventListener('change', () => { localStorage.setItem("theme", document.getElementById('themes').value); window.location.reload(); });
