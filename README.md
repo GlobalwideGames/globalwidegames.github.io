@@ -16,8 +16,8 @@
 - Proxies (soon if yall stop getting them blocked)
 
 # Info
-- Made by me posh
 - uses mainly html, css, and js
+- 60+ Games!
 - I hope to implement a proxy into the site soon
 - I add games daily just email me and games or updates you want I love feedback!
 
