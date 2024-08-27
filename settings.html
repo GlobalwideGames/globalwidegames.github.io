@@ -22,7 +22,6 @@
             <ul>
         </div>
     </nav>
-    <div id="particles-js">
     <div>
         <center><h1 style="line-height: 100px; color: var(--text-color1)">Settings</h1></center>
         <hr>
@@ -48,14 +47,6 @@
                 <option value="amoled">Amoled Theme</option>
             </select> 
         </div>
-       <h1 class="Settings-Header">Particles</h1>
-        <div class="Settings-Container">
-            <select onselect="particleSelect(this.value)" id="themes" class="Normal-Button">
-                <option value="choose...">Choose</option>
-                <option value="on">On</option>
-                <option value="off">Off</option>
-            </select> 
-        </div>
         
         <h1 class="Settings-Header">Panic Button</h1>
         <div class="Settings-Container">
@@ -69,7 +60,6 @@
 
     <script src="./Assests/JS/options.js"></script>
     <script src="./Assests/JS/aboutblank.js"></script>
-    <script src="./Assests/JS/particles.js"></script>
     <script>
         function setIcon(img, name) { localStorage.removeItem('cloak'); var icon = JSON.parse(localStorage.getItem("cloak")) || []; icon.push({ img: img, name: name }); localStorage.setItem("cloak", JSON.stringify(icon)); window.location.reload(); }
         document.getElementById('themes').addEventListener('change', () => { localStorage.setItem("theme", document.getElementById('themes').value); window.location.reload(); });
@@ -81,6 +71,5 @@
             localStorage.setItem("panic", JSON.stringify(panic));
         }           
     </script>
-</div>
 </body>
 </html>
