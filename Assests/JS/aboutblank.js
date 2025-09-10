@@ -1,7 +1,3 @@
-function WidgetBot() {
-  create(protocolThingy + "/Assests/Others/WidgetBot.html");
-}
-
 function about_blank(){
     var newWindow = window.open('about:blank', '_blank');
     newWindow.document.body.style.margin = '0';
