@@ -15,6 +15,7 @@ var says = [
   "no you shouldnt skid it",
   "what do i add?",
   "*you're* 👆🤓",
+  "hi ari",
   "idk how many games are in this lol",
   "optimized by ChatGPT",
   "archiving piksulh soon",
