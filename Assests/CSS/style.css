@@ -42,49 +42,68 @@ a:hover {
     }
   
   /* Navigation Bar */
-  
-  .Navigation {
-    width: 100%;
-    height: 60px;
-    background: var(--bg-accent2);
-    display: flex;
-    border-radius: 0 0 25px 25px;
-  }
-  .Navigation-Image img {
-    margin-top: 5px;
-    height: 36px;
-    padding: 0.5em;
-    padding-left: 1.25em;
-  }
-  .Navigation-Image:hover {
-    animation: shake 5s;
-  }
-  .Navigation-Container {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    width: 100%;
-  }
-  .Navigation-Container ul {
-    gap: 15px;
-    display: flex;
-    position: absolute;
-    transform: translate(15%);
-  }
-  .Navigation-Button a {
-    display: flex;
-    padding: 0.75em;
-    align-items: center;
-    gap: 5px;
-    color: var(--text-color1);
-    background-color: var(--btn-accent);
-    border-radius: var(--btn-rounding);
-    border: 1px solid var(--btn-accent);
-  }
-  .Navigation-Button a:hover {
-    border: 1px solid var(--nav-box-hover);
-    transition: 0.75s;
-  }
+
+.Navigation {
+  width: 100%;
+  height: 60px;
+  background: var(--bg-accent2);
+  display: flex;
+  border-radius: 0 0 25px 25px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  overflow-x: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.Navigation::-webkit-scrollbar {
+  display: none;
+}
+
+.Navigation-Image img {
+  margin-top: 5px;
+  height: 36px;
+  padding: 0.5em;
+  padding-left: 1.25em;
+  flex-shrink: 0;
+}
+
+.Navigation-Image:hover {
+  animation: shake 5s;
+}
+
+.Navigation-Container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  min-width: max-content;
+  padding: 0 15px;
+}
+
+.Navigation-Container ul {
+  gap: 15px;
+  display: flex;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+.Navigation-Button a {
+  display: flex;
+  padding: 0.75em;
+  align-items: center;
+  gap: 5px;
+  color: var(--text-color1);
+  background-color: var(--btn-accent);
+  border-radius: var(--btn-rounding);
+  border: 1px solid var(--btn-accent);
+  flex-shrink: 0;
+}
+
+.Navigation-Button a:hover {
+  border: 1px solid var(--nav-box-hover);
+  transition: 0.75s;
+}
   
   /* Index Page */
   
