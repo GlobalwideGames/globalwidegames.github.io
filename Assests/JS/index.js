@@ -40,8 +40,8 @@ var says = [
   "amog",
   "💀",
   "hey e-kitten",
-  "Kwame is coolll... jk he ass at fortnite"
   "Mike is a rock head",
+  "Kwame is coolll... jk he ass at fortnite"
   ];
   
   function splashText() {
